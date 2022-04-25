@@ -17,10 +17,13 @@
 # результаты 
 
 1. сначала агент не обучен. он совершает неверный выбор и очень долго "думает", прежде чем это сделать.
+
 ![](https://github.com/ajdivotf/ql-dql/blob/main/results/bad.gif)
 
 2. затем агент учиться делать верный выбор, но это более медленно, чем следовало бы.
+
 ![](https://github.com/ajdivotf/ql-dql/blob/main/results/good.gif)
 
 3. и наконец полностью обученный агент, набирающий свой максимальный результат, выглядит так:
+
 ![](https://github.com/ajdivotf/ql-dql/blob/main/results/excellent.gif)
