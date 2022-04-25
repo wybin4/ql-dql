@@ -172,7 +172,7 @@ def main():
         print(f"on #{episode}, epsilon is {epsilon}")
         print(f"ep mean: {np.mean(total_training_rewards)}")        
         all_episodes_reward.append(total_training_rewards)
-        q_model.save(f'models/{MODEL_NAME}__{np.mean(all_episodes_reward[-25:])}mean__{int(time.time())}.model')
+    q_model.save(f'models/{MODEL_NAME}__{np.mean(all_episodes_reward[-25:])}mean__{int(time.time())}.model')
     return all_episodes_reward
 
 if __name__ == '__main__':
