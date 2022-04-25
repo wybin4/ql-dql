@@ -16,4 +16,4 @@
 
 # результаты 
 
-![](bad.gif)
+![](https://github.com/ajdivotf/ql-dql/blob/main/results/bad.gif)
